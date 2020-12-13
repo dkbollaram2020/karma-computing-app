@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <a class="navbar-brand mr-5">{{ pageTitle }}</a>
+  <ul class="nav nav-pills ml-5">
+    <!-- <li *ngIf="isAuthenticated">
+      <a
+        class="nav-link ml-3"
+        routerLinkActive="active"
+        [routerLink]="['/protected']"
+        >Protected Page</a
+      >
+    </li> -->
+  </ul>
+  <ul class="nav nav-pills ml-auto">
+    <!-- <li *ngIf="!isAuthenticated">
+      <a class="nav-link" routerLinkActive="active" [routerLink]="['/login']"
+        >Login</a
+      >
+    </li> -->
+    <li *ngIf="isAuthenticated">
+      <a style="cursor: pointer" class="nav-link ml-3" (click)="onLogout()"
+        >Logout</a
+      >
+    </li>
+  </ul>
+</nav>
