@@ -1,6 +1,6 @@
 # Karma Computing - Angular App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+A simple web app built with Angular and CI/CD setup using Github Actions and Firebase
 
 ## Install dependencies 
 ```bash
