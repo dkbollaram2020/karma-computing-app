@@ -1,5 +1,5 @@
 {
   "projects": {
-    "production": "karma-computing-app"
+    "default": "karma-computing-ng-app"
   }
 }
